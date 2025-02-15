@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+#main {
+  width: 100%;
+}
+
+a,
+u {
+  color: black;
+  text-decoration: none !important;
+}
+
+.title {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #d0e7ff;
+  border-bottom: 2px solid #60aeff;
+}
+
+.title_text {
+  flex: 1;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #368ae1;
+}
+
+.er_minigame_content {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.er_minigame_item {
+  width: 550px;
+  display: inline-flex;
+  flex-direction: column;
+
+  &:nth-child(2n-1) {
+    padding-left: 30px;
+  }
+}
+
+.er_minigame_img {
+  margin: 0 auto;
+
+  & img {
+    width: 550px;
+  }
+}
+
+.er_minigame_info {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.er_minigame_info_container {
+  overflow: hidden;
+}
+
+.er_minigame_title {
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.er_minigame_desc_container {
+  margin-bottom: 4px;
+}
+
+.er_minigame_desc {
+  color: #6b6b6b;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #d0e7ff;
+  border-top: 2px solid #60aeff;
+}
+
+.footer_inner {
+  width: 1200px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.footer_navigator {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.twitter_title {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.twitter_link {
+  color: #228fff;
+  font-size: 28px;
+  font-weight: bold;
+}
