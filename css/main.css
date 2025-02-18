@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+body {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 a,
 u {
   color: black;
@@ -28,25 +34,25 @@ u {
 }
 
 .er_minigame_content {
-  width: 1130px;
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .er_minigame_item {
-  width: 550px;
+  width: 100%;
+  max-width: 600px;
   display: inline-flex;
   flex-direction: column;
-
-  &:nth-child(2n-1) {
-    padding-left: 30px;
-  }
+  align-items: center;
 }
 
 .er_minigame_img {
   margin: 0 auto;
 
   & img {
-    width: 550px;
+    width: 100%;
   }
 }
 
@@ -87,6 +93,7 @@ u {
 .footer_navigator {
   margin: 0 auto;
   margin-top: 30px;
+  margin-left: 20px;
 }
 
 .twitter_title {

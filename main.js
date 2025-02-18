@@ -7,7 +7,7 @@ const GenerateMinigameElement = ({ Title, Desc, PlayUrl, PreviewImageUrl }) => `
     <div class="er_minigame_info_container">
       <strong class="er_minigame_title">${Title}</strong>
       <div class="er_minigame_desc_container">
-        <span class="er_minigame_desc">설명: ${Desc}</span>
+        <span class="er_minigame_desc">${Desc}</span>
       </div>
     </div>
   </div>
