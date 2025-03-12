@@ -1,17 +1,22 @@
 const GenerateMinigameElement = ({ Title, Desc, PlayUrl, PreviewImageUrl }) => `
-<a class="er_minigame_item" href="${PlayUrl}" rel="noopener noreferrer" target="_blank">
+<div class="er_minigame_item">
   <div class="er_minigame_img">
     <img src="${PreviewImageUrl}" />
   </div>
   <div class="er_minigame_info">
     <div class="er_minigame_info_container">
-      <strong class="er_minigame_title">${Title}</strong>
+      <div class="er_minigame_title_container">
+        <strong class="er_minigame_title">${Title}</strong>
+      </div>
       <div class="er_minigame_desc_container">
         <span class="er_minigame_desc">${Desc}</span>
       </div>
+      <a class="er_minigame_play_button" href="${PlayUrl}" rel="noopener noreferrer" target="_blank">
+        <span class="er_minigame_play_text">PLAY!</span>
+      </a>
     </div>
   </div>
-</a>
+</div>
 `;
 
 const fetchGameData = async () => {
